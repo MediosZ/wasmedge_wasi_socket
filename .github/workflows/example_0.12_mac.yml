@@ -8,7 +8,7 @@ on:
         required: true
         default: "info"
   push:
-    branches: [main]
+    branches: [main, test-mac]
   pull_request:
     branches: [main]
 
